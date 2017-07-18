@@ -1,0 +1,20 @@
+nav li{
+  float: right;
+  text-align: right;
+
+}
+
+#background-image {
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+#foot {
+text-align: center;
+background-color: red;
+}
+
+body {
+  background-color: red;
+}
