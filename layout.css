@@ -1,7 +1,7 @@
-nav li{
-  float: right;
-  text-align: right;
-
+li a {
+  display: block;
+  width: 60px; 
+  float: left; 
 }
 
 #background-image {
@@ -12,9 +12,8 @@ nav li{
 
 #foot {
 text-align: center;
-background-color: red;
 }
 
 body {
-  background-color: red;
+  background-color: #5DADE2;
 }
