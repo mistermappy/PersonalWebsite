@@ -1,7 +1,7 @@
 li a {
   display: block;
-  width: 60px; 
-  float: left; 
+  width: 60px;
+  float: left;
 }
 
 #background-image {
@@ -16,4 +16,8 @@ text-align: center;
 
 body {
   background-color: #5DADE2;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', sans-serif;
 }
