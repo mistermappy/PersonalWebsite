@@ -1,23 +1,65 @@
-li a {
-  display: block;
-  width: 60px;
-  float: left;
-}
-
-#background-image {
-  opacity: 1;
-  max-width: 100%;
-  height: auto;
-}
-
-#foot {
-text-align: center;
-}
-
 body {
-  background-color: #5DADE2;
+  margin: 0px ;
 }
 
-h1, h2 {
-  font-family: 'Permanent Marker', sans-serif;
+h1 {
+  margin-left: 20px ;
+  position: relative;
+  min-height: 100px;
+}
+
+h2{
+  margin-left: 20px ;
+  position: absolute; 
+  margin-top: 75px;
+}
+
+p {
+  text-align: center ;
+  font-size: 50px ;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.header {
+  font-family: 'Abril Fatface', sans-serif;
+  display: flex;
+  background-color: #42f4a7;
+  max-width: 1920px;
+  min-width: 100%;
+  
+}
+
+figcaption {
+  overflow: scroll ;
+  font-family: 'Geo', sans-serif ;
+}
+
+.image-position {
+  padding-left: 35px ;
+  padding-right: 15px ;
+}
+
+.menu a:link {
+   text-decoration: none ;
+}
+
+.menu a:hover{
+  color: red ;
+  }
+
+.menu ul {
+  list-style-type: none ;
+  position: absolute ;
+  top: 10px ;
+  right: 0px ;
+  max-width: 920px;
+  min-width: 520px;
+}
+
+.menu li {
+  float: left ;
+  margin: 25px ;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 20px ;
+
 }

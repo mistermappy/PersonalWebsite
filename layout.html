@@ -3,24 +3,47 @@
 <head>
 	<title>Personal Website</title>
 	<link href="layout.css" type='text/css' rel='stylesheet'>
-	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-
-
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href='imagehover.css-master/css/imagehover.min.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
 </head>
-<body>
-	<h1>Mikhal Angelo Misenas</h1>
-	<h2>Junior Web Developer</h2>
-	<nav>
-		<ul>
-			<li><a>About Me</a></li>
-			<li><a>Photos</a></li>
-			<li><a>Must Go-To Places</a></li>
-		</ul>
-	</nav>
-	<img id='background-image' src="background-image.jpg">
-<footer id='foot'>
-	&copy; 2017
-</footer>
-</body>
 
+<body>
+	<div class='header'>
+		<h1>Mikhal Angelo Misenas<br></h1>
+		<h2>Junior Web Developer</h2>
+	</div>	
+	<div class='menu'>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href='#'>Images</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contact</a></li>		
+		</ul>
+	</div>
+	<p>About Me</p>
+	<div class='image-position'>
+		<div><figure class='imghvr-push-right'>
+			<img src='images/webdev.png' width='290px' height='300px'>
+			<figcaption>Learning to code one line at a time. To be honest, I wasn't really interested in web development or programming or whatever you call it until a year ago when I eventually started writing more advanced code beyond the "hello world" script that every newbie stumbles upon. I started playing with JS through codewars.com and found the whole activity of coding a good mental exercise. I've always been interested in improving my logic and problem-solving abilities and programming gives me that. I'm also interested in starting my own tech company soon. I have some product/service ideas in the works. As I learn more languages and frameworks and as I dig deeper into how apps are built from scratch, I'll be able to piece together my ideas into a tangible product/service.</figcaption>
+		</figure>
+		<figure class='imghvr-push-up'>
+			<img src='images/hiking.png' width='290px' height='300px'>
+			<figcaption>Love to hike! Countrysides, mountains, reserves, you name it. Ever since I got my driver's license a few years back, I've been renting cars and just hiking with Pixel, mostly in upstate New York. Last summer, we spent some weekends at Bear Mountain, which is an hour drive through the Palisades Pkwy. It's a nice change of scenery as there are fewer people and less noise polluting the senses. My dog and I just walk around easy trails since she gets tired easily from the high altitudes of advanced trails. Aside from the calming effect of hiking, I also enjoy it for the physical challenge and of course the breathtaking views that you can snap photos of.</figcaption>
+		</figure>
+		<figure class='imghvr-push-up'>
+			<img src='images/pixel.jpg' width='290px' height='300px'>
+			<figcaption>Proud dog owner of a year-and-a-half old ball of energy named Pixel. She's one of the reasons I got into hiking. Pixel has helped me overcome my social troubles. We spend 2-3 hours every day at dog parks and walking the busy streets of the Upper East Side, which has ultimately yielded in meeting people and making a ton of friends. While she is no doubt a blessing in my life, it's quite challenging to manage my time between working, studying, and taking care of her. Aside from being a wild child, she is also a picky eater, which is sometimes annoying since I hand-prepare and cook everything from scratch, only for her picky taste buds to refuse it. I also walk and petsit other dogs on the side.</figcaption>
+		</figure>
+		<figure class='imghvr-push-up'>
+			<img src='images/trading.png' width='290px' height='300px'>
+			<figcaption>Been trading stocks and currencies for 4 years now. I like to keep things simple with price action or naked chart trading techniques, such as MaPs and 2:1 reward-risk ratios. Currently, I am focused on New Zealand Kiwi versus US Dollar pair. For stocks, I am interested in tech startups that offer high-risk/high-reward and real estate companies that tend to trend better.</figcaption>
+		</figure>
+		<figure class='imghvr-push-left'>
+			<img src='images/gamer.jpg' width='290px' height='300px'>
+			<figcaption>Mashing buttons since late 90s! Started out with NES classics like Super Mario and now plays a lot of MOBA and MMORPG games, like Dota 2 and Dragon Nest. Used to log in about 20 hours of game time every week in high school, but now adult life has limited my gaming privileges to only a few measly hours per week. So why do I like gaming, video gaming to be exact? Personally, I find that multiplayer games provide me with a competitive environment that improves my mental dexterity, hand-eye coordination, and team communication skills.</figcaption>
+		</figure>
+	</div>
+	<script src="layout.js"></script>
+</body>
 </html>
