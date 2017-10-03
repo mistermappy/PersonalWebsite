@@ -1,3 +1,3 @@
 Personal website/About Me Page 
 
-I will try to express who I am with this one webpage
+Submitted Bare Minimum. Will add more styling and content as I finish other requirements.
