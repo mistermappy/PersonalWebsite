@@ -1,17 +1,7 @@
-body {
-  margin: 0px ;
-}
-
-h1 {
-  margin-left: 20px ;
-  position: relative;
-  min-height: 100px;
-}
-
-h2{
-  margin-left: 20px ;
-  position: absolute; 
-  margin-top: 75px;
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 p {
@@ -20,13 +10,20 @@ p {
   font-family: 'Abril Fatface', sans-serif;
 }
 
+.container {
+  background-color: #42f4a7;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   font-family: 'Abril Fatface', sans-serif;
-  display: flex;
+  display: inline-flex;
+  float: left;
   background-color: #42f4a7;
-  max-width: 1920px;
-  min-width: 100%;
-  
+  width: 50%;
+  font-size: 25px;
+  padding: 1%;
 }
 
 figcaption {
@@ -47,13 +44,16 @@ figcaption {
   color: red ;
   }
 
+.menu {
+  background-color: #42f4a7;
+  width: 50%;
+  height: auto;
+  display: inline-flex;
+}
+
 .menu ul {
   list-style-type: none ;
-  position: absolute ;
-  top: 10px ;
-  right: 0px ;
-  max-width: 920px;
-  min-width: 520px;
+  margin-left: 15%;
 }
 
 .menu li {
@@ -61,5 +61,53 @@ figcaption {
   margin: 25px ;
   font-family: 'Abril Fatface', sans-serif;
   font-size: 20px ;
+}
 
+.image-header {
+  font-size: 100px;
+  background-color: #2471A3;
+  text-align: center;
+}
+
+.images ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 10%;
+}
+
+.other-images ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 10%;
+}
+
+/*.images ul li {
+  float: left;
+  display: inline-flex;
+  border: 2px solid;
+  font-size: 50px;
+}*/
+
+.images ul li img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  transform: rotate(90deg);
+}
+
+.other-images ul li img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  transform: rotate(360deg);
+}
+
+.contact-page {
+  
+}
+
+.contact-page ul {
+  list-style-type: none;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 20px;
 }
