@@ -1,3 +1,2 @@
-Personal website/About Me Page 
+Personal website/About Me page 
 
-Submitted Bare Minimum. Will add more styling and content as I finish other requirements.
