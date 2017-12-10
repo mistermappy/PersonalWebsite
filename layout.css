@@ -114,3 +114,12 @@ figcaption {
 .contact-page a:link{
   text-decoration: none;
 }
+
+.blog-body {
+  font-size: 50px;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.blog-body a:link {
+  text-decoration: none;
+}
