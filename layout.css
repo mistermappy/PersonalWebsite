@@ -78,7 +78,6 @@ figcaption {
 .other-images ul {
   display: inline-flex;
   list-style-type: none;
-  margin: 10%;
 }
 
 /*.images ul li {
@@ -110,4 +109,8 @@ figcaption {
   list-style-type: none;
   font-family: 'Abril Fatface', sans-serif;
   font-size: 20px;
+}
+
+.contact-page a:link{
+  text-decoration: none;
 }
